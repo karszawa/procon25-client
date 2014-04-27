@@ -21,6 +21,11 @@
 		A08B494E18ED406700B379AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08B493018ED406700B379AF /* UIKit.framework */; };
 		A08B495618ED406700B379AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A08B495418ED406700B379AF /* InfoPlist.strings */; };
 		A08B495818ED406700B379AF /* Procon25Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A08B495718ED406700B379AF /* Procon25Tests.m */; };
+		A08B496218ED536D00B379AF /* Neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A08B496118ED536D00B379AF /* Neko1.jpg */; };
+		A08B496418ED637E00B379AF /* prob05.png in Resources */ = {isa = PBXBuildFile; fileRef = A08B496318ED637E00B379AF /* prob05.png */; };
+		A08B496618ED86C700B379AF /* Neko2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A08B496518ED86C700B379AF /* Neko2.jpg */; };
+		A0CD3C2218F0333400288F72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CD3C2118F0333400288F72 /* AVFoundation.framework */; };
+		A0CD3C2818F0367500288F72 /* swing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0CD3C2718F0367500288F72 /* swing.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		A08B495318ED406700B379AF /* Procon25Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Procon25Tests-Info.plist"; sourceTree = "<group>"; };
 		A08B495518ED406700B379AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A08B495718ED406700B379AF /* Procon25Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Procon25Tests.m; sourceTree = "<group>"; };
+		A08B496118ED536D00B379AF /* Neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neko1.jpg; sourceTree = "<group>"; };
+		A08B496318ED637E00B379AF /* prob05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prob05.png; sourceTree = "<group>"; };
+		A08B496518ED86C700B379AF /* Neko2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neko2.jpg; sourceTree = "<group>"; };
+		A0CD3C2118F0333400288F72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A0CD3C2718F0367500288F72 /* swing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = swing.mp3; path = ../../../Downloads/swing.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CD3C2218F0333400288F72 /* AVFoundation.framework in Frameworks */,
 				A08B492F18ED406700B379AF /* CoreGraphics.framework in Frameworks */,
 				A08B493118ED406700B379AF /* UIKit.framework in Frameworks */,
 				A08B492D18ED406700B379AF /* Foundation.framework in Frameworks */,
@@ -101,6 +112,7 @@
 		A08B492B18ED406600B379AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0CD3C2118F0333400288F72 /* AVFoundation.framework */,
 				A08B492C18ED406600B379AF /* Foundation.framework */,
 				A08B492E18ED406700B379AF /* CoreGraphics.framework */,
 				A08B493018ED406700B379AF /* UIKit.framework */,
@@ -118,6 +130,10 @@
 				A08B494118ED406700B379AF /* ViewController.h */,
 				A08B494218ED406700B379AF /* ViewController.m */,
 				A08B494418ED406700B379AF /* Images.xcassets */,
+				A08B496318ED637E00B379AF /* prob05.png */,
+				A08B496118ED536D00B379AF /* Neko1.jpg */,
+				A08B496518ED86C700B379AF /* Neko2.jpg */,
+				A0CD3C2718F0367500288F72 /* swing.mp3 */,
 				A08B493318ED406700B379AF /* Supporting Files */,
 			);
 			path = Procon25;
@@ -199,6 +215,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Cubic;
 				TargetAttributes = {
+					A08B492818ED406600B379AF = {
+						DevelopmentTeam = 8V93M8FSEZ;
+					};
 					A08B494918ED406700B379AF = {
 						TestTargetID = A08B492818ED406600B379AF;
 					};
@@ -229,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A08B494518ED406700B379AF /* Images.xcassets in Resources */,
+				A08B496618ED86C700B379AF /* Neko2.jpg in Resources */,
 				A08B493718ED406700B379AF /* InfoPlist.strings in Resources */,
+				A08B496418ED637E00B379AF /* prob05.png in Resources */,
+				A08B496218ED536D00B379AF /* Neko1.jpg in Resources */,
 				A08B494018ED406700B379AF /* Main.storyboard in Resources */,
+				A0CD3C2818F0367500288F72 /* swing.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Procon25/Procon25-Prefix.pch";
 				INFOPLIST_FILE = "Procon25/Procon25-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +417,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Procon25/Procon25-Prefix.pch";
 				INFOPLIST_FILE = "Procon25/Procon25-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -458,6 +487,7 @@
 				A08B495D18ED406700B379AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A08B495E18ED406700B379AF /* Build configuration list for PBXNativeTarget "Procon25Tests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +496,7 @@
 				A08B496018ED406700B379AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
